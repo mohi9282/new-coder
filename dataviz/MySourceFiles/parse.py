@@ -15,7 +15,6 @@ def parse(raw_file, delimiter):
 
     # Read CSV  file
     csv_data = csv.reader(opened_file, delimiter=delimiter)
-    print(csv_data)
 
     # Setup an empty list to collect data
     parsed_data = []
@@ -32,14 +31,14 @@ def parse(raw_file, delimiter):
 
     return parsed_data
 
-new_data = parse(MY_FILE, ",")
-print(new_data)
+# new_data = parse(MY_FILE, ",")
+# print(new_data)
 
-# def main():
-#     # Call our parse function to read csv and create data
-#     new_data = parse(MY_FILE, ',')
-#     print(new_data)
+def main():
+    # Call our parse function to read csv and create data
+    new_data = parse(MY_FILE, ',')
+    print(new_data)
 
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
