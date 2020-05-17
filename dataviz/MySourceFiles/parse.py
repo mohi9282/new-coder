@@ -34,11 +34,11 @@ def parse(raw_file, delimiter):
 # new_data = parse(MY_FILE, ",")
 # print(new_data)
 
-def main():
-    # Call our parse function to read csv and create data
-    new_data = parse(MY_FILE, ',')
-    print(new_data)
-
-
-if __name__ == "__main__":
-    main()
+# def main():
+#     # Call our parse function to read csv and create data
+#     new_data = parse(MY_FILE, ',')
+#     print(new_data)
+#
+#
+# if __name__ == "__main__":
+#     main()
